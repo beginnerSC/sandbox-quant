@@ -1,0 +1,28 @@
+channels:
+  - conda-forge
+  - conda-forge/label/prerelease-jupyterlab  
+dependencies:
+  - numpy
+  - scipy
+  - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn 
+  - jupyterlab=2
+  - nodejs
+  - notebook=6
+  - ptvsd
+  - xeus-python=0.8.6
+  - nbgitpuller
+  - jupyterlab-git
+  - voila
+  - pip
+  - pip: 
+    - nbdime
+    - yfinance
+    - schedule 
+    - panel
+    - hvplot
+    - get-all-tickers
+    - pyDiffMap
+    - arch
