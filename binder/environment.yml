@@ -26,3 +26,4 @@ dependencies:
     - get-all-tickers
     - pyDiffMap
     - arch
+    - pandas_ta
