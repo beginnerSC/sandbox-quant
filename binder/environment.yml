@@ -31,3 +31,4 @@ dependencies:
     - pyDiffMap
     - arch
     - pandas_ta
+    - xgboost
