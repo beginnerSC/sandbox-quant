@@ -32,4 +32,4 @@ dependencies:
     - arch
     - pandas_ta
     - xgboost
-    - pandas-datareader
+    - pandas_datareader
