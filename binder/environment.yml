@@ -22,7 +22,6 @@ dependencies:
   - rise
   - pip
   - pip: 
-    - nbdime
     - yfinance
     - schedule 
     - panel
