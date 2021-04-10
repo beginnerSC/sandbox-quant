@@ -11,17 +11,18 @@ dependencies:
   - xeus-cling=0.10.0
   - xtensor=0.21.2
   - xtensor-blas=0.17.1
-  - nodejs >=14,<15
+  - nodejs
   - xeus-python
   - notebook
-  - ipywidgets >=7.6
-  - jupyterlab >=3,<4.0.0a0
+  - ipywidgets>=7.6
+  - jupyterlab=3
   - nbgitpuller
-  - jupyterlab-git
+  - jupyterlab-git=0.30.0b1
   - voila
   - rise
   - pip
   - pip: 
+    - nbdime
     - yfinance
     - schedule 
     - panel
