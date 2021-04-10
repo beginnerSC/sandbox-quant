@@ -10,6 +10,10 @@ jupyter labextension install @jupyterlab/toc
 jupyter labextension install @pyviz/jupyterlab_pyviz
 jupyter lab build --minimize=False
 
+chmod +x $HOME/binder/gc
+
+echo 'export PATH=$HOME/binder:$PATH' >> .bashrc
+
 echo '\n# git add commit and push in one command \n' >> .bashrc
 
 echo 'function cnp() {                                                                    ' >> .bashrc
