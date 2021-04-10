@@ -18,7 +18,6 @@ dependencies:
   - jupyterlab=3
   - nbgitpuller
   - jupyterlab-git
-  - wheel
   - voila
   - rise
   - pip
