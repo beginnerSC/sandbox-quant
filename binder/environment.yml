@@ -33,3 +33,4 @@ dependencies:
     - pandas_ta
     - xgboost
     - pandas_datareader
+    - pycrypto
