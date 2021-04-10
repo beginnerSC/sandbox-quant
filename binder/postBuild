@@ -1,6 +1,6 @@
-jupyter serverextension enable --py nbgitpuller --sys-prefix
 jupyter serverextension enable voila --sys-prefix     # This makes Voilà available as a server extension: http://localhost:8888/voila/tree
-jupyter lab build --minimize=False
+# jupyter serverextension enable --py nbgitpuller --sys-prefix
+# jupyter lab build --minimize=False
 
 chmod +x $HOME/binder/gc
 
