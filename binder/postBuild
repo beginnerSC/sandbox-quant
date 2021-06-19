@@ -16,5 +16,8 @@ echo '    git commit -a -m "autosave"                                           
 echo '    git push                                                                        ' >> .bashrc
 echo '}                                                                                   ' >> .bashrc
 
-# sed -i 's/{article}/{article}\n\\usepackage{xeCJK}/' $(find ../../.. -name "article.tplx")
-sed -i 's/((\* block packages \*))/((\* block packages \*))\n    \\usepackage{xeCJK}/' $(find ../../.. -name "base.tex.j2")
+# sed -i 's/((\* block packages \*))/((\* block packages \*))\n    \\usepackage{xeCJK}/' $(find ../../.. -name "base.tex.j2")
+
+sed -i 's/((\* block packages \*))/((\* block packages \*))\n    \\usepackage{CJKutf8}/' $(find ../../.. -name "base.tex.j2")
+sed -i 's/\\begin{document}/\\begin{document}\n\\begin{CJK*}{UTF8}{bsmi}/' $(find ../../.. -name "base.tex.j2")
+sed -i 's/\end{document}/\end{CJK}\n\end{document}/' $(find ../../.. -name "base.tex.j2")
