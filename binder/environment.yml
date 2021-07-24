@@ -39,3 +39,4 @@ dependencies:
     - pandas_datareader
     - pycrypto
     - jupyterlab-spellchecker
+    - pytest
