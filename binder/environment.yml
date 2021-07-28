@@ -40,3 +40,4 @@ dependencies:
     - pycrypto
     - jupyterlab-spellchecker
     - pytest
+    - pytest-cov
