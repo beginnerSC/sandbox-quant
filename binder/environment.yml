@@ -21,6 +21,7 @@ dependencies:
   - ipywidgets>=7.6
   - jupyterlab=3
   - nbgitpuller
+  - sphinx
   - jupyterlab-git
   - voila
   - rise
