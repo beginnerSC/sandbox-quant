@@ -42,3 +42,4 @@ dependencies:
     - jupyterlab-spellchecker
     - pytest
     - pytest-cov
+    - twine
