@@ -8,3 +8,4 @@ texlive-science
 texlive-xetex
 texlive-lang-chinese
 tree
+swig
