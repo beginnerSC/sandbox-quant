@@ -24,7 +24,6 @@ dependencies:
   - sphinx
   - jupyterlab-git
   - voila
-  - rise
   - pip
   - pip: 
     - nbdime
@@ -35,6 +34,7 @@ dependencies:
     - get-all-tickers
     - pyDiffMap
     - arch
+    - RISE
     - pandas_ta
     - xgboost
     - pandas_datareader
