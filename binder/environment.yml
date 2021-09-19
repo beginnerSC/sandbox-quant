@@ -43,3 +43,4 @@ dependencies:
     - pytest
     - pytest-cov
     - twine
+    - Cython
